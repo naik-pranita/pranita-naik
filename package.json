@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"test\""
+    "bundle": "webpack",
+    "bundle:watch" : "webpack --w"
   },
   "author": "pnaik93",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^3.11.0"
+  }
 }

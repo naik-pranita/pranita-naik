@@ -11,3 +11,22 @@
 [debug] [2018-02-17T07:39:44.243Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/pranita-naik  
   
  Sat Feb 17 2018 13:09:44 GMT+0530 (India Standard Time)
+[debug] [2018-02-17T07:39:50.531Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-17T07:39:50.532Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/pranita-naik/tokens  
+  
+ Sat Feb 17 2018 13:09:50 GMT+0530 (India Standard Time)
+[debug] [2018-02-17T07:39:51.766Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'G:\Pranita\Work\pranita-naik'...
+[info] 
+[debug] [2018-02-17T07:39:51.772Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/pranita-naik  
+  
+ Sat Feb 17 2018 13:09:51 GMT+0530 (India Standard Time)
+[debug] [2018-02-17T07:39:55.776Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-17T07:39:55.777Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/108725582115/clients/_:getWebAppConfig  
+  
+ Sat Feb 17 2018 13:09:55 GMT+0530 (India Standard Time)
+[debug] [2018-02-17T07:39:57.233Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
