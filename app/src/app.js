@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 
+import '../../public/assets/bootstrap/css/bootstrap.min.css';
+
 class App extends Component {
     constructor(props) {
         super(props)
@@ -8,8 +10,8 @@ class App extends Component {
 
     render() {
         return (
-            <div>
-                <h1>App Works!!</h1>
+            <div className='jumbotron text-center'>
+                <h1>Pranita Naik</h1>
             </div>
         )
     }
