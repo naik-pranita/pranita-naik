@@ -1,2 +1,10 @@
 @import '../../public/assets/bootstrap/css/bootstrap.min.css';
 @import "../../node_modules/font-awesome/css/font-awesome.min.css";
+
+a {
+    color: gray;
+
+    &:hover {
+        color: lightgray;
+    }
+}

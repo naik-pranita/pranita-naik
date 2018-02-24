@@ -5,6 +5,16 @@ const About = (props) => {
     return (
         <div className='overview text-center'>
             <h1 className='name'>PRANITA NAIK</h1>
+            <div className='contact-details'>
+                152/24, SHRI KUNJ, PRADHIKARAN, NIGDI, PUNE - 411044
+                |
+                +918087809466
+                |
+                <a href='mailto:pnaik93@gmail.com'> pnaik93@gmail.com</a>
+            </div>
+            <div className='summary text-justify'>
+                <p>Passionate Web Developer.</p>
+            </div>
             <div className='social text-left'>
                 <ul>
                     <li>
