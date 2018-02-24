@@ -1,0 +1,37 @@
+@media (min-width: 768px) {
+    .overview {
+        width: calc(100% - 20em);
+        position: relative;
+        left: 20em;
+        padding: 1em;
+        font-family: serif;
+    }
+}
+
+.name {
+    font-size: 63px;
+}
+
+.social {
+    font-size: 2em;
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+        padding: 0.5em;
+    }
+}
+
+.circle {
+    background-color: #495057;
+    border-radius: 50%;
+    width: 1.42em;
+    text-align: center;
+
+    .fa {
+        font-size: 0.85em;
+    }
+}

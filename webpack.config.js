@@ -8,7 +8,7 @@ var outputPath = PATH.resolve(__dirname + '/public/');
 
 module.exports = {
     entry: {
-        app: ['babel-polyfill', PATH.join(baseSrcPath + '/app.js')]
+        app: ['babel-polyfill', PATH.join(baseSrcPath + '/App.js')]
     },
     output: {
         filename: '[name].bundle.js',

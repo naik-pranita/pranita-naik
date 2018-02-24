@@ -1,7 +1,2 @@
-@media (min-width: 768px) {
-    .jumbotron {
-        width: calc(100% - 20em);
-        position: relative;
-        left: 20em;
-    }
-}
+@import '../../public/assets/bootstrap/css/bootstrap.min.css';
+@import "../../node_modules/font-awesome/css/font-awesome.min.css";
