@@ -15,7 +15,14 @@ module.exports = {
         path: PATH.join(outputPath + '/build/')
     },
     plugins: [
-        new HtmlWebpackPlugin({ template: './public/index.html' })
+        new HtmlWebpackPlugin({ template: './public/index.html' }),
+        new webpack.optimize.CommonsChunkPlugin({
+            name: 'common',
+            filename: 'common.vendor.js',
+            minChunks: function (module) {
+                return module.context && module.context.includes('node_modules')
+            }
+        })
     ],
     module: {
         loaders: [{
