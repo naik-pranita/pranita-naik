@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 
+import NavBar from "./components/nav/NavBar";
+
 import '../../public/assets/bootstrap/css/bootstrap.min.css';
+import './app.scss'
 
 class App extends Component {
     constructor(props) {
@@ -10,8 +13,11 @@ class App extends Component {
 
     render() {
         return (
-            <div className='jumbotron text-center'>
-                <h1>Pranita Naik</h1>
+            <div className='app-container'>
+                <NavBar />
+                <div className='jumbotron text-center'>
+                    <h1>Pranita Naik</h1>
+                </div>
             </div>
         )
     }

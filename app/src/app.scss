@@ -1,0 +1,7 @@
+@media (min-width: 768px) {
+    .jumbotron {
+        width: calc(100% - 20em);
+        position: relative;
+        left: 20em;
+    }
+}
