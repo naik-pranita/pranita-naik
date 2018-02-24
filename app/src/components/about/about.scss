@@ -1,9 +1,10 @@
-@media (min-width: 768px) {
-    .overview {
+.overview {
+    padding: 2em;
+
+    @media (min-width: 768px) {
         width: calc(100% - 20em);
         position: relative;
         left: 20em;
-        padding: 1em;
         font-family: serif;
     }
 }
@@ -26,6 +27,7 @@
 
     ul {
         list-style: none;
+        padding: 0;
     }
 
     li {
