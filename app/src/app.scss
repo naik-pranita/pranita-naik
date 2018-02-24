@@ -12,3 +12,11 @@ a {
         color: lightgray;
     }
 }
+
+.component-contaniner {
+    @media (min-width: 768px) {
+        width: calc(100% - 20em);
+        position: relative;
+        left: 20em;
+    }
+}

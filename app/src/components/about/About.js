@@ -3,7 +3,7 @@ import './about.scss';
 
 const About = (props) => {
     return (
-        <div className='overview text-center'>
+        <div className='component-contaniner about text-center'>
             <h1 className='name'>PRANITA NAIK</h1>
             <div className='contact-details'>
                 152/24, SHRI KUNJ, PRADHIKARAN, NIGDI, PUNE - 411044

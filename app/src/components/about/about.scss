@@ -1,10 +1,8 @@
-.overview {
-    padding: 2em;
+.about {
+    padding: 5em 2em;
 
     @media (min-width: 768px) {
-        width: calc(100% - 20em);
-        position: relative;
-        left: 20em;
+        padding: 12em 2em;
     }
 }
 

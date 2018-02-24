@@ -1,8 +1,9 @@
-import React, { Component } from "react";
-import ReactDOM from "react-dom";
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 
-import NavBar from "./components/nav/NavBar";
-import About from "./components/about/About";
+import NavBar from './components/nav/NavBar';
+import About from './components/about/About';
+import Card from "./components/card/Card";
 
 import './app.scss';
 
@@ -16,6 +17,14 @@ class App extends Component {
             <div className='app-container'>
                 <NavBar />
                 <About />
+                <hr />
+                <Card
+                     title='Experience'
+                     heading='Web Developer'
+                     subHeading='Barclaycard US'
+                     mainContent='test content test content  test content  test content  test content  test content  test content  test content  test content  test content  test content  test content  test content  test content  test content  test content  test content  test content '
+                     footer='July 2016 - present'
+                     />
             </div>
         )
     }
