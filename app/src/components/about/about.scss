@@ -5,7 +5,6 @@
         width: calc(100% - 20em);
         position: relative;
         left: 20em;
-        font-family: serif;
     }
 }
 
@@ -14,8 +13,9 @@
 }
 
 .contact-details {
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .summary {
@@ -37,7 +37,7 @@
 }
 
 .circle {
-    background-color: #495057;
+    background-color: #0e263d;
     border-radius: 50%;
     width: 1.42em;
     text-align: center;
