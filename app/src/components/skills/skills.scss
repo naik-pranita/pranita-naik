@@ -1,16 +1,21 @@
-.list-inline-item:not(:last-child) {
-    margin-right: .5rem;
-}
-
-.list-inline-item {
-    display: inline-block;
-}
-
-.list-icons {
-    font-size: 7rem;
-}
-
-.list-inline {
-    padding-left: 0;
-    list-style: none;
+.skills {
+    padding: 2em;
+   
+    .list-inline-item:not(:last-child) {
+        margin-right: .5rem;
+    }
+    
+    .list-inline-item {
+        display: inline-block;
+    }
+    
+    .list-icons {
+        font-size: 7rem;
+        margin: 0.7em auto;
+    }
+    
+    .list-inline {
+        padding-left: 0;
+        list-style: none;
+    }
 }

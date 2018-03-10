@@ -1,3 +1,8 @@
+.navbar-inverse .navbar-brand {
+    margin: 0 auto;
+    padding: 0.4em;
+}
+
 @media (min-width: 768px) {
 
     .app-container > .navbar {
@@ -21,6 +26,7 @@
         float: none;
         display: inline-block;
         padding: 2em;
+        margin: 1em auto;
         margin-top: 10em;
     }
 

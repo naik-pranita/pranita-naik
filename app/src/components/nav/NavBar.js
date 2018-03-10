@@ -20,7 +20,7 @@ const NavBar = (props) => {
             </Navbar.Header>
             <Navbar.Collapse>
                 <Nav>
-                    <NavItem onClick={onClick} data-target="egitxperience">
+                    <NavItem onClick={onClick} data-target="experience">
                         Experience
                     </NavItem>
                     <NavItem onClick={onClick} data-target="education">
