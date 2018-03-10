@@ -43,7 +43,14 @@ const data = {
             footer: '2009'
         }
         ]
-    }
+    },
+    skills: [{
+        label: '',
+        values: []
+    }, {
+        label: '',
+        values: []
+    },]
 };
 
 export default data;

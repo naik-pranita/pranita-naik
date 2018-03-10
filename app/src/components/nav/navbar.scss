@@ -13,6 +13,10 @@
         float: none;
     }
 
+    .navbar>.container .navbar-brand.nav, .navbar>.container-fluid .navbar-brand.nav {
+        margin-left: 0;
+    }
+
     .navbar-header > .navbar-brand {
         float: none;
         display: inline-block;

@@ -9,16 +9,18 @@ const onClick = (e) => {
 
 const NavBar = (props) => {
     return (
-        <Navbar inverse collapseOnSelect fixedTop={true}>
+        <Navbar inverse collapseOnSelect fixedTop>
             <Navbar.Header>
-                <Navbar.Brand>
-                    <a onClick={onClick} data-target="about"> Pranita Naik</a>
+                <Navbar.Brand><Nav>
+                    <NavItem onClick={onClick} data-target="about">Pranita Naik
+                </NavItem>
+                </Nav>
                 </Navbar.Brand>
                 <Navbar.Toggle />
             </Navbar.Header>
             <Navbar.Collapse>
                 <Nav>
-                    <NavItem onClick={onClick} data-target="experience">
+                    <NavItem onClick={onClick} data-target="egitxperience">
                         Experience
                     </NavItem>
                     <NavItem onClick={onClick} data-target="education">
