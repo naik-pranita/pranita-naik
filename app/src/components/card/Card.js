@@ -1,27 +1,39 @@
 import React from 'react';
 import './card.scss';
 
-const Card = (props) => {
+const mapComponentDetails = (item, index) => {
     return (
-        <div className='component-contaniner card'>
-            <div className='card-title'>
-                {props.title}
-            </div>
+        <div key={index} className='card-container'>
             <div className='heading'>
-                {props.heading}
+                {item.heading}
             </div>
             <div className='sub-heading'>
-                {props.subHeading}
+                {item.subHeading}
             </div>
             <div className='card-body'>
-                <p>{props.mainContent}</p>
+                {item.mainContent.map((content, idx) => <p key={idx}>{content}</p>)}
             </div>
             <div className='card-footer'>
-                {props.footer}
+                {item.footer}
+            </div>
+            <hr />
+        </div>
+    );
+};
+
+
+const Card = ({item}) => {
+    return (
+        <div id={item.section} className='component-contaniner card'>
+            <div className='card-title'>
+                <h1>{item.section}</h1>
+            </div>
+            <div>
+                {item.content.map(mapComponentDetails)}
             </div>
         </div>
-    )
 
-}
+    )
+};
 
 export default Card;

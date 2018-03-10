@@ -1,45 +1,46 @@
 import React from 'react';
 import './about.scss';
 
-const About = (props) => {
+const About = ({ details }) => {
+    const { name, contact, summary } = details;
     return (
-        <div className='component-contaniner about text-center'>
-            <h1 className='name'>PRANITA NAIK</h1>
+        <div id='about' className='component-contaniner about text-center'>
+            <h1 className='name'>{name}</h1>
             <div className='contact-details'>
-                152/24, SHRI KUNJ, PRADHIKARAN, NIGDI, PUNE - 411044
+                {contact.address}
                 |
-                +918087809466
+                {contact.phone}
                 |
-                <a href='mailto:pnaik93@gmail.com'> pnaik93@gmail.com</a>
+                <a href={`mailto:${contact.email}`}>{contact.email}</a>
             </div>
             <div className='summary text-justify'>
-                <p>Passionate Web Developer.</p>
+                <p>{summary}</p>
             </div>
             <div className='social text-left'>
                 <ul>
                     <li>
-                        <a href='https://www.linkedin.com/in/pranita-naik-30180a48/' target='_blank'>
+                        <a href={contact.linkedIn} target='_blank'>
                             <div className='circle'>
                                 <i className="fa fa-linkedin fa-inverse"></i>
                             </div>
                         </a>
                     </li>
                     <li>
-                        <a href='https://github.com/pnaik93' target='_blank'>
+                        <a href={contact.github} target='_blank'>
                             <div className='circle'>
                                 <i className="fa fa-github fa-inverse"></i>
                             </div>
                         </a>
                     </li>
                     <li>
-                        <a href='' target='_blank'>
+                        <a href={contact.twitter} target='_blank'>
                             <div className='circle'>
                                 <i className="fa fa-twitter fa-inverse"></i>
                             </div>
                         </a>
                     </li>
                     <li>
-                        <a href='' target='_blank'>
+                        <a href={contact.facebook} target='_blank'>
                             <div className='circle'>
                                 <i className="fa fa-facebook fa-inverse"></i>
                             </div>

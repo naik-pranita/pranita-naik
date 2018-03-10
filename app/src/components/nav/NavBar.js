@@ -1,33 +1,35 @@
 import React from 'react';
-import { Navbar, Nav, NavItem } from "react-bootstrap";
-import "./navbar.scss";
+import { Navbar, Nav, NavItem, Button } from 'react-bootstrap';
+import './navbar.scss';
+
+const onClick = (e) => {
+    var element = document.getElementById(e.target.getAttribute('data-target'));
+    element.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+};
 
 const NavBar = (props) => {
     return (
-        <Navbar inverse collapseOnSelect>
+        <Navbar inverse collapseOnSelect fixedTop={true}>
             <Navbar.Header>
                 <Navbar.Brand>
-                    <a href="summary">Pranita Naik</a>
+                    <a onClick={onClick} data-target="about"> Pranita Naik</a>
                 </Navbar.Brand>
                 <Navbar.Toggle />
             </Navbar.Header>
             <Navbar.Collapse>
                 <Nav>
-                    <NavItem eventKey={1} href="#">
-                        About
-                </NavItem>
-                    <NavItem eventKey={2} href="#">
+                    <NavItem onClick={onClick} data-target="experience">
                         Experience
-                </NavItem>
-                    <NavItem eventKey={2} href="#">
+                    </NavItem>
+                    <NavItem onClick={onClick} data-target="education">
                         Education
-                </NavItem>
-                    <NavItem eventKey={2} href="#">
+                        </NavItem>
+                    <NavItem onClick={onClick} data-target="skills">
                         Skills
-                </NavItem>
-                    <NavItem eventKey={2} href="#">
+                        </NavItem>
+                    <NavItem onClick={onClick} data-target="interests">
                         Interests
-                </NavItem>
+                        </NavItem>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
