@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "bundle": "webpack",
-    "bundle:watch": "webpack --w"
+    "w": "webpack -w"
   },
   "author": "pnaik93",
   "license": "MIT",
@@ -24,6 +24,7 @@
     "webpack": "^3.11.0"
   },
   "dependencies": {
+    "devicon-2.2": "^2.2.0",
     "firebase": "^4.10.0",
     "font-awesome": "^4.7.0",
     "react": "^16.2.0",

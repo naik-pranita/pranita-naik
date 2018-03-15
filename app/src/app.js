@@ -26,8 +26,8 @@ class App extends Component {
         <NavBar />
         <About details={this.state.about} />
         <Card item={this.state.experience} />
+        <Skills details={this.state.skills} />
         <Card item={this.state.education} />
-        <Skills />
 
         <div id='interests' />
       </div>

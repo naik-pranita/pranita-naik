@@ -12,7 +12,7 @@ const NavBar = (props) => {
         <Navbar inverse collapseOnSelect fixedTop>
             <Navbar.Header>
                 <Navbar.Brand><Nav>
-                    <NavItem onClick={onClick} data-target="about">Pranita Naik
+                    <NavItem onClick={onClick} data-target="about" className="text-uppercase">Pranita Naik
                 </NavItem>
                 </Nav>
                 </Navbar.Brand>
@@ -20,16 +20,16 @@ const NavBar = (props) => {
             </Navbar.Header>
             <Navbar.Collapse>
                 <Nav>
-                    <NavItem onClick={onClick} data-target="experience">
+                    <NavItem onClick={onClick} data-target="experience" className="text-uppercase">
                         Experience
                     </NavItem>
-                    <NavItem onClick={onClick} data-target="education">
-                        Education
-                        </NavItem>
-                    <NavItem onClick={onClick} data-target="skills">
+                    <NavItem onClick={onClick} data-target="skills" className="text-uppercase">
                         Skills
                         </NavItem>
-                    <NavItem onClick={onClick} data-target="interests">
+                    <NavItem onClick={onClick} data-target="education" className="text-uppercase">
+                        Education
+                        </NavItem>
+                    <NavItem onClick={onClick} data-target="interests" className="text-uppercase">
                         Interests
                         </NavItem>
                 </Nav>

@@ -44,13 +44,40 @@ const data = {
         }
         ]
     },
-    skills: [{
-        label: '',
-        values: []
-    }, {
-        label: '',
-        values: []
-    },]
+    skills: {
+        section: 'skills',
+        content: [{
+            label: 'Core',
+            values: [
+                'html5-plain-wordmark',
+                'javascript-plain',
+                'jquery-plain-wordmark',
+                'angularjs-plain-wordmark',
+                'react-plain-wordmark',
+                'nodejs-plain-wordmark',
+                'babel-plain',
+                'typescript-plain',
+                'jasmine-plain-wordmark',
+                'css3-plain-wordmark',
+                'sass-plain',
+                'bootstrap-plain-wordmark']
+        }, {
+            label: 'Build',
+            values: [
+                'grunt-plain-wordmark',
+                'webpack-plain-wordmark']
+        }, {
+            label: 'Version Control',
+            values: [
+                'git-plain-wordmark',
+                'bitbucket-plain-wordmark']
+        }, {
+            label: 'IDEs',
+            values: [
+                'intellij-plain-wordmark',
+                'visualstudio-plain-wordmark']
+        }]
+    }
 };
 
 export default data;
